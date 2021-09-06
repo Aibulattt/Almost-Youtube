@@ -1,0 +1,5 @@
+{
+    "port": 4000,
+    "jwtSecret": "aibulat youtube app",
+    "mongoUri": "mongodb+srv://Aibulat:qwerty123@cluster0.jyvch.mongodb.net/app?retryWrites=true&w=majority"
+}

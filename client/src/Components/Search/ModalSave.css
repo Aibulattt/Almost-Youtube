@@ -1,0 +1,152 @@
+.modal {
+    width: 510px !important;
+}
+
+.ant-modal-content {
+    padding: 36px 40px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-modal-header,
+.ant-modal-footer,
+.ant-modal-body {
+    padding: 0;
+    border: none;
+}
+
+.ant-modal-title {
+    text-align: center;
+    margin-bottom: 36px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.form__label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.modal-form__input {
+    width: 430px;
+    height: 48px;
+    padding-left: 12px;
+    background: #FAFAFA;
+    border: 1px solid rgba(23, 23, 25, 0.1);
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.modal-form__input::placeholder {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form__label span {
+    color: red;
+}
+
+.modal-form__input:focus {
+    outline: 1px solid #1390e5;
+    background: rgba(197, 228, 249, 0.3);
+}
+
+.ant-modal-footer {
+    display: none;
+}
+
+.ant-modal-close {
+    display: none;
+}
+
+.ant-select {
+    width: 100%;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 48px;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-top: 9px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #272727;
+    opacity: 0.3;
+}
+
+.input-mb {
+    margin-bottom: 24px;
+}
+
+.form__slider {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+}
+
+.slider {
+    width: 310px;
+    margin-right: 20px;
+}
+
+.select__title {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.slider__title {
+    width: 100%;
+    margin-bottom: 18px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.form__btn {
+    display: flex;
+}
+
+.btn {
+    width: 210px;
+    height: 52px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #1390E5;
+    border-radius: 5px;
+}
+
+.btn-dnt-save {
+    margin-right: 10px;
+    color: #1390E5;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.btn-save {
+    color: #fff;
+    background-color: #1390E5;
+    transition: all .2s ease-in-out;
+}
+
+/* .btn-save:hover {
+    color: #1390E5;
+    background-color: #fff;
+}
+
+.btn-dnt-save:hover {
+    color: #fff;
+    background-color: #1390E5;
+} */

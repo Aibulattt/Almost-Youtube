@@ -1,0 +1,20 @@
+{
+  "name": "urban-waffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "i dep client": "npm i --prefix \"./client\" ",
+    "i dep server": "npm i --prefix \"./server\" ",
+    "install": "concurrently \"npm run i dep client\" \"npm run i dep server\" ",
+    "client": "npm run dev --prefix \"./client\" ",
+    "server": "npm run server --prefix \"./server\" ",
+    "start": "concurrently \"npm run client\" \"npm run server\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  }
+}

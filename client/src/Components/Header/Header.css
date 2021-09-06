@@ -1,0 +1,64 @@
+.ant-layout-header {
+    background: #fff !important;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__list {
+    display: flex;
+    height: 100%;
+}
+
+.header__nav {
+    height: 100%;
+}
+
+.nav__item {
+    margin-right: 20px;
+    padding: 0 20px;
+}
+
+.nav__item  a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1390E5;
+}
+
+.active {
+    border-bottom: 2px solid #1390e5;
+}
+
+.header__logo {
+    margin-right: 35px;
+    width: 48px;
+    height: 48px;
+}
+
+.header__btn-link {
+    margin-left: auto;
+}
+
+.header__btn {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1390E5;
+}
+
+.ant-layout {
+    background: transparent;
+}
+
+.ant-layout-header {
+    height: 80px;
+    background: transparent;
+    border-bottom: 1px solid #f1f1f1;
+}
